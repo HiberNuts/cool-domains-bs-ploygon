@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./styles/App.css";
-import twitterLogo from "./assets/twitter-logo.svg";
+// import twitterLogo from "./assets/twitter-logo.svg";
 import { ethers } from "ethers";
 import contractAbi from "./utils/Domains.json";
 import polygonLogo from "./assets/polygonlogo.png";
@@ -8,8 +8,8 @@ import ethLogo from "./assets/ethlogo.png";
 import { networks } from "./utils/networks";
 
 // Constants
-const TWITTER_HANDLE = "_buildspace";
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
+// const TWITTER_HANDLE = "_buildspace";
+// const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const tld = ".hehe";
 const CONTRACT_ADDRESS = "0x00027bF391Dbf42E7333F5fC363d5dc59b996438";
